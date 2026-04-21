@@ -21,3 +21,7 @@ This is a Multi-page Streamlit application where you can interact with and test 
 """)
 
 st.info("Select a model from the left sidebar to start making predictions!")
+with st.sidebar:
+    st.header("Navigation")
+    st.write("Use the links above to switch between models.")
+    st.success("Developer: Bala")
